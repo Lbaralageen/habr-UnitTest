@@ -1,22 +1,5 @@
-Framework for pure TSQL unit testing
-    
-    Includes example of database creation sql scripts and batches for automation.
-    
-    File: config.ini should be modified for your working smtp server seetings and notification emails.
-    
-    File: smtppart.py also should have valid smtp server name.
-    
-    Requirements: Python 2.7, Windows 10, MSSQL 2008 and higher.
-    
-    Read readme.txt to setup enviroment.
-    
-    https://habr.com/post/417569/
-    
-    To run all script use: autorun.bat
 
 How to setup enviroment.
-
-https://habr.com/post/417569/
 
 
 1. Install Python runtime and pip package manager
@@ -63,10 +46,9 @@ Make sure you choose the correct whl file. For example : If you are using Python
 
     python setup.py install
 
-5. Make sure you can svn.exe from everywhere  (Add path="c:\Program Files\TortoiseSVN\bin");
+5. Make sure you can svn.exe from everywhere  (Add path="c:\Program Files\TortoiseSVN\bin"); or modify for Git
 
 6. Make sure you can SQLCMD.EXE from everywhere (Add path=c:\Program Files\Microsoft SQL Server\110\Tools\Binn\SQLCMD.EXE);
 
-7. Make sure utility exits:c:\Projects\ris3\Installer\risv3\CustomActionDLL\x64\Release\CaDBScriptTester.exe
 
 8. Install ODBC support for MSSQL. Download pyodbc-4.0.0-cp27-cp27m-win_amd64.whl and put into c:\Python27. Then install : pip install pyodbc-4.0.0-cp27-cp27m-win_amd64.whl
