@@ -1,4 +1,4 @@
-
+Author: Konstantin Tchoumak
 How to setup enviroment.
 
 
